@@ -12,7 +12,7 @@ var portfolioCollection = [
 		"url": ""
 	},
 	{
-		"name": "Py3",
+		"name": "PPy3",
 		"info": "Front-end: Javascript, CSS and HTML",
 		"url": ""
 	}
