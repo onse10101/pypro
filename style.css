@@ -1,0 +1,96 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #0e0e0e;
+	color: white;
+	line-height: 1.75;
+	font-family: monospace;
+	
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  width: 80%;
+  background: linear-gradient(
+    to right, 
+		rgba(255,255,255, 0),
+    rgba(255,255,255, 1),
+    rgba(255,255,255, 0));
+  margin: 2rem auto;
+}
+
+.mynavbar {
+	min-height: 50px;
+	padding: 8px;
+	margin: 0px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mynavbar-link {
+	margin: 0px 8px;
+	padding: 4px 8px;
+	text-align: center;
+	border: 2px solid #111;
+	border-radius: 50%;
+	transition: all 0.25s ease;
+}
+.mynavbar-link:hover {
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+
+.container {
+	border-bottom: 1px solid rgba(250, 246, 246, 0.492);
+}
+
+.card-block {
+	min-height: 150px;
+	background-color: rgba(16, 16, 16, 0.693);
+}
+
+.card {
+	border: 1px solid rgb(13, 13, 13);
+	transition: all 0.25s ease;
+}
+.card:hover {
+	border: 1px solid white;
+	box-shadow: 0px 0px 4px 0px white;
+}
+
+i {
+	padding: 8px 16px;
+	border: 1px solid white;
+	border-radius: 5px;
+	transition: all 0.25s ease;
+}
+i:hover {
+	box-shadow: 0px 0px 5px 1px white;
+}
+
+h5{
+	font-family: sans-serif;
+	color: rgb(106, 108, 110);
+
+}

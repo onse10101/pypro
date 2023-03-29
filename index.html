@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sydney</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+	
+	<main>
+		<!--About-->
+		
+		<div id="about" class="container mb-4 mb-lg-5">
+			<div class="row mb-4 mb-lg-5">
+				
+				<!--About I/Left-->
+				<div class="col-12 col-md-6
+				
+										d-flex justify-content-center align-items-center">
+										
+					<div class="mb-4 mb-lg-0">
+						
+						<h4><br>
+						<small class="text-muted"> </small>
+						</h4><br>
+						<div class="text-center mb-2 mb-md-0">
+						
+						</div>
+					</div>
+				</div>
+				
+				<!--About II/Right-->
+				<div class="col-12 col-md-6 
+										d-flex justify-content-center align-items-center">
+				
+				</div>
+			</div>
+			</div>
+		
+		<!--Portfolio-->
+		<div id="portfolio" class="container mb-2 mb-lg-2">
+			<div id="vue-portfolio" class="row mb-lg-4 d-flex justify-content-center">
+				<div class="col-12 col-md-6 col-lg-4"
+						 v-for="project in portfolios">
+					<a :href="project.url" target="_blank">
+						<div class="card card-inverse bg-inverse mb-4">
+							<div class="card-block">
+								<h4 class="card-title">{{project.name}}</h4>
+								<p class="card-text">{{project.info}}</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
