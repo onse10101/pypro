@@ -2,7 +2,7 @@ var portfolioCollection = [
 
 	{
 		"name": "Movies-dataset-2021-2023-analysis",
-		"info": "top-popular-movies-dataset-2021-2023-analysis using Pandas, matplotlib and tabulate",
+		"info": "Top-popular-movies-dataset-2021-2023-analysis using Pandas, matplotlib and tabulate",
 		"url": "https://github.com/onse10101/top-popular-movies-dataset-2021-2023-analysis/blob/main/top-popular-movies-dataset-2021-2023-analysis.ipynb"
 	},
 
