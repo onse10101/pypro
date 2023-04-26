@@ -7,14 +7,9 @@ var portfolioCollection = [
 	},
 
 	{
-		"name": "Py2",
-		"info": "Front-end: Javascript, CSS and HTML",
-		"url": ""
-	},
-	{
-		"name": "PPy3",
-		"info": "Front-end: Javascript, CSS and HTML",
-		"url": ""
+		"name": "EDA on data science salaries",
+		"info": "Detailed exploration data analysis on data science salaries ",
+		"url": "https://github.com/onse10101/EDA-on-data-science-salaries/blob/main/detailed-eda-on-data-science-salaries.ipynb"
 	}
 
 	
