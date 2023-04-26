@@ -1,9 +1,9 @@
 var portfolioCollection = [
 
 	{
-		"name": "Py1",
-		"info": "Front-end: Javascript, CSS and HTML",
-		"url": ""
+		"name": "Movies-dataset-2021-2023-analysis",
+		"info": "top-popular-movies-dataset-2021-2023-analysis using Pandas, matplotlib and tabulate",
+		"url": "https://github.com/onse10101/top-popular-movies-dataset-2021-2023-analysis/blob/main/top-popular-movies-dataset-2021-2023-analysis.ipynb"
 	},
 
 	{
