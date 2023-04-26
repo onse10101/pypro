@@ -10,6 +10,11 @@ var portfolioCollection = [
 		"name": "EDA on data science salaries",
 		"info": "Detailed exploration data analysis on data science salaries ",
 		"url": "https://github.com/onse10101/EDA-on-data-science-salaries/blob/main/detailed-eda-on-data-science-salaries.ipynb"
+	},
+	{
+		"name": "Students scores data analysis",
+		"info": "Detailed exploration data analysis on students scores using pandas, seaborn and matplotlib",
+		"url": "https://github.com/onse10101/Data-analysis-students-scores/blob/main/eda-students-exam-scores.ipynb"
 	}
 
 	
